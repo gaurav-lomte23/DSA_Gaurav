@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aws-amplify": "^6.6.5",
     "react": "^18.2.0",
     "react-cookie": "^4.1.1",
     "react-dom": "^18.2.0",
@@ -43,6 +44,14 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.2.7"
+    "@aws-amplify/backend": "^1.5.0",
+    "@aws-amplify/backend-cli": "^1.2.9",
+    "aws-cdk": "^2.162.1",
+    "aws-cdk-lib": "^2.162.1",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.0",
+    "tailwindcss": "^3.2.7",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
   }
 }

@@ -7,7 +7,6 @@ import { useState, useEffect } from "react";
 import React from "react";
 import Completer from "./components/Completer";
 import ProgressPage from "./components/ProgressPage";
-import Home from "./components/Home";
 
 // Add this after line 5
 const boxColors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8', '#F7DC6F', '#BB8FCE', '#82E0AA', '#F8C471', '#85C1E9', '#F1948A', '#D7BDE2'];
@@ -866,8 +865,7 @@ const [count, setcount] = useState(0);
             }
           ></Route>
 
-<Route path="/" element={<Home />} />
-<Route path="/Question" element={<Questions />} />
+
 
 
 
